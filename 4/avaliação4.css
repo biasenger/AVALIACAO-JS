@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(250, 195, 241);
+}
+
+.conteudo {
+    text-align: center;
+   margin-top: 5px;
+}
+
+h2{
+    color:rgb(175, 0, 146);
+}

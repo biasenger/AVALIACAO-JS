@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8d4e8;
+}
+
+.container {
+    text-align: center;
+}
+
+#botao {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #ff69b4; /* Rosa */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#botao:hover {
+    background-color: #ff1493; /* Rosa mais escuro quando hover */
+}

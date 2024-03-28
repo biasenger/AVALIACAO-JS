@@ -1,0 +1,60 @@
+.modal {
+    display: none; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.808); 
+  }
+  
+  .modal-content {
+    background-color: #a7e6ee;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  .close {
+    color: #041a61;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .arrow-up {
+    position: absolute;
+    bottom: -40px;
+    left: calc(50% - 20px);
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #fefefe;
+  }
+
+  
+  #myBtn {
+    background-color: rgb(4, 155, 201); 
+    color: white;
+    padding: 10px 20px; 
+    border: 5px solid black; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+  }
+  

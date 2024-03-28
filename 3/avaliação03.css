@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#container {
+    max-width: 400px;
+    margin: 20px auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+li.completed {
+    text-decoration: line-through;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 8px 16px;
+    background-color: #e03e8a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e03e8a;
+}
